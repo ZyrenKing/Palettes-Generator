@@ -30,7 +30,7 @@ git clone https://github.com/ZyrenKing/Palettes-Generator.git
 ---
 
 ```cmd
-cd palettes-generator
+cd Palettes-Generator
 cd SourceCode
 python -m venv .venv
 .venv\Scripts\activate
