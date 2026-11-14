@@ -54,18 +54,10 @@ python main.py
 
 | File | Role |
 |---|---|
-| `main.py` | GUI (CustomTkinter) — screens, flow, threading |
-| `logic.py` | API calls, image → WEBP, palette PNG rendering |
-| `StaticPrompt.md` | Strict system prompt forcing valid JSON output |
-| `requirements.txt` | Dependencies |
-
----
-
-## 🖼 Build EXE
-
-```bash
-pyinstaller --onedir --windowed --noconfirm --collect-all customtkinter --collect-all google.genai --name "Palettes Generator" main.py
-```
+| [`main.py`](SourceCode/main.py) | GUI (CustomTkinter) — screens, flow, threading |
+| [`logic.py`](SourceCode/logic.py) | API calls, image → WEBP, palette PNG rendering |
+| [`StaticPrompt.md`](SourceCode/StaticPrompt.md) | Strict system prompt forcing valid JSON output |
+| [`requirements.txt`](SourceCode/requirements.txt) | Dependencies |
 
 ---
 
