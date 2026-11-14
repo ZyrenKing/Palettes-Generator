@@ -54,10 +54,10 @@ python main.py
 
 | File | Role |
 |---|---|
-| [`main.py`](SourceCode/main.py) | GUI (CustomTkinter) — screens, flow, threading |
-| [`logic.py`](SourceCode/logic.py) | API calls, image → WEBP, palette PNG rendering |
-| [`StaticPrompt.md`](SourceCode/StaticPrompt.md) | Strict system prompt forcing valid JSON output |
-| [`requirements.txt`](SourceCode/requirements.txt) | Dependencies |
+| [main.py](SourceCode/main.py) | GUI (CustomTkinter) — screens, flow, threading |
+| [logic.py](SourceCode/logic.py) | API calls, image → WEBP, palette PNG rendering |
+| [StaticPrompt.md](SourceCode/StaticPrompt.md) | Strict system prompt forcing valid JSON output |
+| [requirements.txt](SourceCode/requirements.txt) | Dependencies |
 
 ---
 
